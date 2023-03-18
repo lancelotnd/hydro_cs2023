@@ -7,3 +7,9 @@
 6-Évaluer les performances du modèle
 7-Ajuster les hyperparamètres pour améliorer les performances du modèle
 8-Prédire les apports en eau pour l'année 2023
+
+
+1- Dans l'exemple de code précédent, le prétraitement des données est relativement simple. Les étapes de prétraitement sont les suivantes :
+
+Création d'une nouvelle colonne 'Time_id' en combinant les colonnes 'Year' et 'Week'. Cette colonne servira d'identifiant temporel pour chaque instance de l'ensemble de données.
+Conversion de la colonne 'Time_id' en un objet de type datetime pour faciliter l'analyse temporelle.
