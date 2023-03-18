@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.ensemble import RandomForestRegressor 
+import seaborn as sns
+
 
 
 PARQUET = "NORWAY_INFLOW_2018-2022.parquet"
@@ -35,8 +37,30 @@ def main():
 
     df = to_float(df)
     print(df)
-    visualize(df)
+    #visualize(df)
     df.to_csv("parquet.csv")
+
+
+    #prepare train test dataset
+    train_dataset = df.sample(frac=0.8, random_state=0)
+    test_dataset = df.drop(train_dataset.index)
+
+    #We remove the `entsoe_inflow` label from the dataset as it is the value 
+    #we will try to predict
+
+
+    train_features = train_dataset.copy()
+    test_features = test_dataset.copy()
+
+    train_labels = train_features.pop('entsoe_inflow')
+    test_labels = test_features.pop('entsoe_inflow')
+
+    print(train_dataset.describe().transpose()[['mean', 'std']])
+
+
+
+
+
 
 
 
