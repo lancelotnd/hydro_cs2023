@@ -1,0 +1,9 @@
+
+1-Importer les bibliothèques nécessaires
+2-Charger et explorer l'ensemble de données
+3-Prétraiter les données
+4-Diviser les données en ensembles d'entraînement et de test
+5-Sélectionner un modèle d'apprentissage automatique et l'entraîner
+6-Évaluer les performances du modèle
+7-Ajuster les hyperparamètres pour améliorer les performances du modèle
+8-Prédire les apports en eau pour l'année 2023
