@@ -13,3 +13,5 @@
 
 Création d'une nouvelle colonne 'Time_id' en combinant les colonnes 'Year' et 'Week'. Cette colonne servira d'identifiant temporel pour chaque instance de l'ensemble de données.
 Conversion de la colonne 'Time_id' en un objet de type datetime pour faciliter l'analyse temporelle.
+
+dans le dataset tu fais la fonction, qui estime la quantite produite, en fonction de la semaine
