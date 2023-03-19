@@ -1,4 +1,4 @@
-Voici les différentes étapes effectuées dans le code :
+# Voici les différentes étapes effectuées dans le code :
 
 * Le jeu de données est chargé à partir d'un fichier parquet et est converti en un fichier csv pour une meilleure manipulation à l'aide de la bibliothèque Pandas.
 * Les valeurs manquantes dans les données sont remplacées par la moyenne de chaque colonne.
