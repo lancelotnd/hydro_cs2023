@@ -22,7 +22,7 @@
 
 * Le modèle Random Forest est choisi comme le meilleur modèle pour faire des prévisions car il donne les meilleures performances en termes de Mean Squared Error (MSE), Mean Absolute Error (MAE) et R-squared (R2). Le coefficient de détermination (R2) de 0,8712158 indique que le modèle est capable d'expliquer **87,12%** de la variance des données de test.
 
-
+# les predictions sont dadns le fichier NORWAY_INFLOW_2023_predictions.txt
 
 
 
